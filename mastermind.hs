@@ -17,11 +17,8 @@ main = do
 intList :: String -> IO [Int]
 intList = readIO
 
-CrearCFG :: [int] -> IO [Int]
 
 
-
-MiRandom :: 
 
 
 
