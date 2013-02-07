@@ -8,15 +8,20 @@ main = do
 	fentrada <- getLine
 	cad <- readFile fentrada
 	y<- intList cad
+	cfg<- CrearCFG y
 
 	
 	print y
 
 
-
-
 intList :: String -> IO [Int]
 intList = readIO
+
+CrearCFG :: [int] -> IO [Int]
+
+
+
+MiRandom :: 
 
 
 
